@@ -9,15 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/font": "14.2.15",
-    "@types/node": "22.14.0",
-    "@types/react": "19.1.0",
-    "@types/react-dom": "19.1.2",
-    "eslint": "9.24.0",
-    "eslint-config-next": "15.3.0",
-    "next": "15.3.0",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "typescript": "5.8.3"
+    "@thirdweb-dev/contracts": "^3.4.2",
+    "@thirdweb-dev/react": "^4.4.9",
+    "@thirdweb-dev/sdk": "^4.0.36",
+    "@thirdweb-dev/storage": "^1.2.3",
+    "@types/node": "16.11.11",
+    "@types/react": "^18.0.2",
+    "@types/react-dom": "^18.0.10",
+    "ethers": "^5.6.8",
+    "eslint": "^8.4.0",
+    "next": "^13.1.6",
+    "next-fonts": "^1.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "thirdweb": "^5.93.17"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^13.1.6",
+    "@types/react": "^18.0.2",
+    "@types/node": "16.11.11",
+    "typescript": "5.1.6"
   }
 }
